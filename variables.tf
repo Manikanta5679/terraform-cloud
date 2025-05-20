@@ -1,5 +1,9 @@
-variable "env"{}
-variable "vpc-cidr"{}
+variable "env"{
+    type = string
+}
+variable "vpc-cidr"{
+    type = string
+}
 variable "subnet_cidrs"{
     type = list(string)
 }
